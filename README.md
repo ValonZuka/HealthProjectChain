@@ -23,8 +23,6 @@ By storing records on a blockchain:
 - Create new health records.
 - Edit their own record details (if allowed by system policy).
 - Delete outdated or incorrect entries.
-- Email: valon@gmail.com
-- Password: loni12345 -(IF YOU WANNA SEE EXCISTING TARs MENTIONING Valon )
 
 ### **2. Doctor**
 - Access patient records **only if granted permission**.
@@ -67,3 +65,19 @@ Marks a record as **archived** or **revoked** in the blockchain.
 
 ## 🔑 Demo Access
 To see the **Patient Dashboard** in action, log in with:
+- Email: valon@gmail.com
+- Password: loni12345 -(IF YOU WANNA SEE EXCISTING TARs MENTIONING Valon )
+
+
+
+## 📦 Tech Stack
+- **Frontend:** Next.js + TailwindCSS
+- **Backend:** Node.js / Express.js
+- **Blockchain Layer:** Ethereum / Hyperledger (custom smart contracts)
+- **Database (optional off-chain):** MongoDB
+- **Auth:** JWT-based secure authentication
+
+---
+
+## 📜 License
+MIT License — Free to use, modify, and distribute with proper attribution.
