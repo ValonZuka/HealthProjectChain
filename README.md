@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HealthAndRecordChain 🏥🔗
 
-## Getting Started
+**HealthAndRecordChain** is a blockchain-powered healthcare record management system that ensures patient data is **secure**, **tamper-proof**, and accessible only to authorized medical professionals.  
+Using blockchain technology, every record is **immutable**, transparent for authorized parties, and protected from unauthorized access.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Why Blockchain in Healthcare?
+In traditional healthcare systems, patient records are often stored in centralized databases, making them vulnerable to hacking, tampering, or loss.  
+By storing records on a blockchain:
+- **Immutability:** Once added, data cannot be altered or deleted without authorization.
+- **Transparency:** Actions are traceable and verifiable.
+- **Security:** Data is encrypted and accessible only to patients and approved doctors.
+- **Patient Control:** The patient has ownership of their own records.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 👥 Roles in the System
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **1. Patient**
+- View personal medical records.
+- Approve/revoke doctor access.
+- Create new health records.
+- Edit their own record details (if allowed by system policy).
+- Delete outdated or incorrect entries.
+- Email: valon@gmail.com
+- Password: loni12345 -(IF YOU WANNA SEE EXCISTING TARs MENTIONING Valon )
 
-## Learn More
+### **2. Doctor**
+- Access patient records **only if granted permission**.
+- Create or update medical reports.
+- Suggest edits to a patient’s record (with transparency).
+- View complete medical history of authorized patients.
 
-To learn more about Next.js, take a look at the following resources:
+### **3. Admin**
+- Manage user accounts (patients/doctors).
+- Oversee system logs.
+- Maintain blockchain node integrity.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Main Features & Functions
 
-## Deploy on Vercel
+### **Create Function**
+Adds a new record to the blockchain.  
+- For **patients**: Add personal health details (e.g., allergies, past surgeries, prescriptions).
+- For **doctors**: Add a diagnosis, prescription, or lab report for a patient (with permission).
+- Automatically timestamps and secures the entry.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **Edit Function**
+Updates an existing record while preserving historical changes.  
+- Changes are saved as a **new block** linked to the old one (audit trail intact).
+- Old versions remain viewable for transparency.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### **View Function**
+Displays detailed health records.  
+- **Patients** can see all their records.
+- **Doctors** can only view records for patients who approved access.
+- Data is shown in a clear, UI-friendly layout.
+
+### **Delete Function**
+Marks a record as **archived** or **revoked** in the blockchain.  
+- The original data remains on-chain for legal compliance.
+- Ensures no "hard delete" that would compromise traceability.
+
+---
+
+## 🔑 Demo Access
+To see the **Patient Dashboard** in action, log in with:
